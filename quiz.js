@@ -14,6 +14,8 @@ function handleButtonClick(mood){
     }
 }
 
+//change
+
 //list of questions 
 var questions = [
     "Sooo... how's the weather over there?",

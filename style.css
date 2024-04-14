@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: andale mono, monospace;
+    font-size: large;
+    background-image: url(/pics/bg1.jpg);
+}
+
+.header {
+    font-family: andale mono, monospace;
+}
+
+.box {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto; 
+    border-radius: 10px; /* Rounded corners */
+    background-color: lightgrey;
+    border-color: lightgrey;
+    opacity: 0.9;
+    font-size: 25px;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items horizontally */
+}
+
+.box button {
+    width: 100px; /* Adjust button width */
+    padding: 5px; /* Adjust button padding */
+    font-family: andale mono, monospace;
+    font-size: 25px; /* Inherit font size from parent */
+    background-color: blanchedalmond; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    align-self: center; /* Align button to the center horizontally */
+}
+  

@@ -4,31 +4,7 @@ var sadCount = 0;
 var angryCount = 0;
 var chillCount = 0;
 
-//getting playlist input
-function handleButtonClick(mood){
-
-    if(mood == 'happy'){
-        happyCount += 1;
-        alert(happyCount);
-        nextQuestion();
-    }
-    else if(mood == 'sad'){
-        sadCount += 1;
-        alert(happyCount);
-        nextQuestion();
-    }
-    else if(mood == 'angry'){
-        angryCount += 1;
-        alert(happyCount);
-        nextQuestion();
-    }
-    else if(mood == 'chill'){
-        chillCount += 1;
-        alert(happyCount);
-        nextQuestion();
-    }
-}
-
+//list of questions to answer to get user mood points
 var questions = [
     "Sooo... how's the weather over there?",
     "Is there work or school today?",
@@ -41,6 +17,31 @@ var questions = [
     " "
 ];
 
+//getting playlist input
+function handleButtonClick(mood){
+
+    if(mood == 'happy'){
+        happyCount += 1;
+        alert(happyCount);
+        nextQuestion();
+    }
+    else if(mood == 'sad'){
+        sadCount += 1;
+        alert(sadCount);
+        nextQuestion();
+    }
+    else if(mood == 'angry'){
+        angryCount += 1;
+        alert(angryCount);
+        nextQuestion();
+    }
+    else if(mood == 'chill'){
+        chillCount += 1;
+        alert(chillCount);
+        nextQuestion();
+    }
+}
+
 // Function to display the next question
 function nextQuestion() {
     //Checks there are more than one question in the array
@@ -49,9 +50,19 @@ function nextQuestion() {
         document.getElementById("questions").innerHTML = questions.shift();
     } else {
         //Redirects you to playlisg based on mood points
-        //calculate mood points
         alert("No more questions!");
+        calculateMoodPoints()
     }
+}
+
+//will redirect to playlist page based on mood points 
+function calculateMoodPoints(){
+
+    if(happyCount > 5){
+        //giving user happy playlist and redirect to playlist 
+        alert("you are happy");
+    }
+    
 }
     
 

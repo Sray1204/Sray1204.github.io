@@ -2,6 +2,8 @@ body {
     text-align: center;
     font-family: andale mono, monospace;
     font-size: medium;
+    background-image: url(/pics/bg0.jpg);
+    background-size: 100% ;
 }
 
 .header {
@@ -20,5 +22,55 @@ body {
 
 .options {
     text-align: center;
+    width: 50px;
+    height: 50px;
+    font-weight: 100;
 }
 
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.options input[type="button"] {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    font-size: 30px; /* Optionally adjust the font size */
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.box {
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto; 
+    border-radius: 10px; /* Rounded corners */
+    background-color: lightgrey;
+    border-color: lightgrey;
+    opacity: 0.9;
+    font-size: 25px;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items horizontally */
+}
+
+.box1 {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto; 
+    border-radius: 10px; /* Rounded corners */
+    background-color: lightgrey;
+    border-color: lightgrey;
+    opacity: 0.9;
+    font-size: 18px;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items horizontally */
+}

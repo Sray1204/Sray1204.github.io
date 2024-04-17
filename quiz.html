@@ -8,24 +8,28 @@
     <script src="quiz.js"></script>
 </head>
 <body>
-    <div id="quiz">
-    <div class="header">
-    <h1>Playlist searching...</h1>
-    </div>
+
+<div class="box1">
+    <h3>Respond your current mood to the following questions so we can find just the right playlist for you.</h3>
+</div>
+
+<div class="box"> 
+    <h3>Making playlist...</h3>
 
     <!-- Displaying questions, the first question is already set --> 
-    <div id="questions">How is your mood today?</div>
+    <div id="questions">How is your mood overall today?</div>
 
 
     <!-- buttons with fixed moods --> 
-    <div id="options">
+    <div id="options" class="options">
         <input type="button" id="happy" name="happy" value="&#128512" onclick="handleButtonClick('happy')">
         <input type="button" id="sad" name="sad" value="&#128532" onclick="handleButtonClick('sad')">
         <input type="button" id="angry" name="angry" value="&#128530" onclick="handleButtonClick('angry')">
         <input type="button" id="chill" name="chill" value="&#128524" onclick="handleButtonClick('chill')">
     </div>
-    <div class="submit"></div>
-    </div>
+</div>
+</body>
 
+</div>
 </body>
 </html>

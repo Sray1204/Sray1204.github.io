@@ -2,7 +2,8 @@ body {
     text-align: center;
     font-family: andale mono, monospace;
     font-size: large;
-    background-image: url(/pics/bg1.jpg);
+    background-image: url(/pics/bg0.jpg);
+    background-size: 100% ;
 }
 
 .header {

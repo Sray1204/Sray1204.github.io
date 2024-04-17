@@ -12,6 +12,21 @@ function handleButtonClick(mood){
         alert(happyCount);
         nextQuestion();
     }
+    else if(mood == 'sad'){
+        sadCount += 1;
+        alert(happyCount);
+        nextQuestion();
+    }
+    else if(mood == 'angry'){
+        angryCount += 1;
+        alert(happyCount);
+        nextQuestion();
+    }
+    else if(mood == 'chill'){
+        chillCount += 1;
+        alert(happyCount);
+        nextQuestion();
+    }
 }
 
 var questions = [
@@ -26,15 +41,17 @@ var questions = [
     " "
 ];
 
-//will go through next question in list when the function is called
-function nextQuestion(){
-
-    //loops over the questions list 
-    //redirects to page with playlist based on mood points
-    //will write over the first question
-    document.getElementById("questions").innerHTML = questions[1];
-
+// Function to display the next question
+function nextQuestion() {
+    //Checks there are more than one question in the array
+    if (questions.length > 1) {
+        //Writes over the current question and push it out of the array
+        document.getElementById("questions").innerHTML = questions.shift();
+    } else {
+        //Redirects you to playlisg based on mood points
+        //calculate mood points
+        alert("No more questions!");
+    }
 }
-
-//need function if button clicked to move or push to the next question
+    
 

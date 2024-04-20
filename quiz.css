@@ -75,7 +75,7 @@ body {
     align-items: center; /* Center items horizontally */
 }
 
-/* Simple loading animation for playlist creation text */
+/* Simple loading animation for playlist creation message */
 .loading::after {
     display: inline-block;
     animation: dotty steps(1,end) 1s infinite;

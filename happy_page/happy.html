@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VibeVault</title>
     <link rel="stylesheet" href="happy.css">
-    <script src="media.js"></script>
+    <script src="mediaPlayer.js"></script>
 </head>
 <body>
-    <h3>Playlist</h3>
-    <h1>Let's Get It</h1>
-    <input type="button" value="&#9654"; onclick="playMusic()" /> 
+    <div class="playlist-title-box">
+        <h3>Playlist</h3>
+        <h1>Playlist Title</h1>
+        <!-- Quote cycling here -->
+    </div>
+    
+<div class="box">
+    <div class="img-container">
+        <img src="Dominic_Fike_-_Sunburn.png" alt="album-cover" width="200" height="200">
+        <div id="song-name"></div>
+    </div>
+
+    <div class="media-controls" id="media-controls">
+        <input type="button" id="skipBack" name="pause" value="⏪" onclick="skipSongBack()">
+        <input type="button" id="play" name="play" value="&#9654;" onclick="playMusic()">
+        <input type="button" id="pause" name="pause" value="&#9208;" onclick="pauseMusic()">
+        <input type="button" id="skipForward" name="pause" value="&#9193;" onclick="skipSongFrwd()">
+    </div>
+</div>
 </body>
 </html>

@@ -2,4 +2,85 @@ body {
     text-align: center;
     font-family: andale mono, monospace;
     font-size: medium;
+    background-image: url(/pics/bg3.jpg);
+}
+
+.playlist-title-box {
+    width: 400px; /* Adjust width as needed */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 20px; /* Apply border radius for rounded corners */
+    overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+    background-color: #ffffff; /* White background */
+    margin: 50px auto; /* Center the box horizontally */
+    text-align: center; /* Center-align text */
+}
+
+.playlist-title-box h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Adjust font size */
+}
+
+.playlist-title-box h1 {
+    margin: 10px 0; /* Add margin for spacing */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Apply bold font weight */
+    color: #333333; /* Dark text color */
+}
+
+
+.box {
+    width: 400px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    border-radius: 20px; /* Apply border radius for rounded corners */
+    overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+    background-color: #ffffff; /* White background */
+    margin: 50px auto; /* Center the box horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 80%; /* Adjust image container width */
+    margin-bottom: 20px; /* Add space between image and text */
+}
+
+.img-container img {
+    width: 100%; /* Make image fill container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Apply border radius to the image */
+}
+
+#song-name {
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Apply bold font weight */
+    color: black; /* Dark text color */
+    text-align: center; /* Center-align the song name */
+    margin-bottom: 20px; /* Add space below the song name */
+}
+
+.media-controls {
+    width: 80%; /* Adjust width of media controls */
+    display: flex;
+    justify-content: space-around; /* Evenly distribute controls */
+}
+
+.media-controls input[type="button"] {
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: whitesmodarke; /* Green color for buttons */
+    color: #ffffff; /* Text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    transition: transform 0.2s ease; /* Add transition for smooth effect */
+}
+
+/* Hover effect */
+.media-controls input[type="button"]:hover {
+    transform: scale(1.05); /* Scale button slightly on hover */
 }

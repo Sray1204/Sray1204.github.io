@@ -75,7 +75,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     background-color: whitesmodarke; /* Green color for buttons */
-    color: #ffffff; /* Text color */
+    color: black; /* Text color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
     transition: transform 0.2s ease; /* Add transition for smooth effect */
 }

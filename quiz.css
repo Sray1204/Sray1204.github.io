@@ -48,8 +48,8 @@ body {
     padding: 10px;
     margin: 10px auto; 
     border-radius: 10px; /* Rounded corners */
-    background-color: lightgrey;
-    border-color: lightgrey;
+    background-color: white;
+    border-color: white;
     opacity: 0.9;
     font-size: 25px;
     display: flex; /* Use flexbox for alignment */
@@ -65,8 +65,8 @@ body {
     padding: 10px;
     margin: 10px auto; 
     border-radius: 10px; /* Rounded corners */
-    background-color: lightgrey;
-    border-color: lightgrey;
+    background-color: white;
+    border-color: white;
     opacity: 0.9;
     font-size: 16px;
     display: flex; /* Use flexbox for alignment */

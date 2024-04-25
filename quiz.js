@@ -4,6 +4,9 @@ var sadCount = 0;
 var angryCount = 0;
 var chillCount = 0;
 
+//keeps track of how many questions that have been answered
+var questionIndex = 0;
+
 //list of questions to answer to get user mood points
 var questions = [
     "Sooo... how's the weather over there?",
@@ -14,7 +17,8 @@ var questions = [
     "Did they text back?",
     "Did something embarrassing happen to you in the past week?",
     "How's your week been?",
-    " "
+    "test",
+    "test"
 ];
 
 //getting playlist input
@@ -22,22 +26,22 @@ function handleButtonClick(mood){
 
     if(mood == 'happy'){
         happyCount += 1;
-        alert(happyCount);
+        questionIndex += 1;
         nextQuestion();
     }
     else if(mood == 'sad'){
         sadCount += 1;
-        alert(sadCount);
+        questionIndex += 1;
         nextQuestion();
     }
     else if(mood == 'angry'){
         angryCount += 1;
-        alert(angryCount);
+        questionIndex += 1;
         nextQuestion();
     }
     else if(mood == 'chill'){
         chillCount += 1;
-        alert(chillCount);
+        questionIndex += 1;
         nextQuestion();
     }
 }
@@ -48,21 +52,49 @@ function nextQuestion() {
     if (questions.length > 1) {
         //Writes over the current question and push it out of the array
         document.getElementById("questions").innerHTML = questions.shift();
-    } else {
-        //Redirects you to playlisg based on mood points
-        alert("No more questions!");
-        calculateMoodPoints()
+
+    } else if(questionIndex == 10){
+        //alert("questions done");
+        calculateMoodPoints();
     }
 }
 
-//will redirect to playlist page based on mood points 
+//localStorage.setItem() then getitem in media player script 
+//will direct to playlist and store the playlist number/ id through the website and then be read and will choose the playlist in the mediaplayer script 
 function calculateMoodPoints(){
+    let storeId;
 
-    if(happyCount > 5){
-        //giving user happy playlist and redirect to playlist 
-        alert("you are happy");
+    if(happyCount > 4){
+        storeId = 1;
     }
-    
+    else if(chillCount > 4){
+        storeId = 2;
+    }
+    else if(sadCount > 4){
+        storeId = 3;
+    }
+    else if(angryCount > 4){
+        storeId = 4;
+    }
+    else if(chillCount > 2 && happyCount > 2){
+        storeId = 5;
+    }
+    else if(sadCount > 2 && angryCount > 2){
+        storeId = 6;
+    }
+    else if (sadCount > 2 && chillCount > 1 && angryCount > 2){
+        storeId = 7;
+    }
+    else{
+        storeId = 2;
+    }
+ 
+    //Store the playlist ID in local storage
+    localStorage.setItem('playlistId', storeId);
+    //alert("Playlist ID: " + storeId);
+
+    window.location.replace("playlist-page/happy.html");
 }
-    
+
+
 

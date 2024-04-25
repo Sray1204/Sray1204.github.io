@@ -1,0 +1,130 @@
+{
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Chill Vibes",
+      "songs": [
+        {
+          "name": "How Much Is Weed",
+          "artist": "Dominic Fike",
+          "image": "sunflower.jpg",
+          "path": "Dominic Fike - How Much Is Weed.mp3"
+        },
+        {
+          "name": "Someone You Loved",
+          "artist": "Lewis Capaldi",
+          "image": "someone_you_loved.jpg",
+          "path": "Lewis Capaldi - Someone You Loved.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Feel Good Jams",
+      "songs": [
+        {
+          "name": "Happy",
+          "artist": "Pharrell Williams",
+          "image": "happy.jpg",
+          "path": "Pharrell Williams - Happy.mp3"
+        },
+        {
+          "name": "Uptown Funk",
+          "artist": "Mark Ronson ft. Bruno Mars",
+          "image": "uptown_funk.jpg",
+          "path": "Mark Ronson ft. Bruno Mars - Uptown Funk.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Relaxation Station",
+      "songs": [
+        {
+          "name": "Ocean Waves",
+          "artist": "Nature Sounds",
+          "image": "ocean_waves.jpg",
+          "path": "Nature Sounds - Ocean Waves.mp3"
+        },
+        {
+          "name": "Serenity",
+          "artist": "Calm Music Ensemble",
+          "image": "serenity.jpg",
+          "path": "Calm Music Ensemble - Serenity.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Workout Beats",
+      "songs": [
+        {
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "image": "eye_of_the_tiger.jpg",
+          "path": "Survivor - Eye of the Tiger.mp3"
+        },
+        {
+          "name": "Stronger",
+          "artist": "Kanye West",
+          "image": "stronger.jpg",
+          "path": "Kanye West - Stronger.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Study Tunes",
+      "songs": [
+        {
+          "name": "Clair de Lune",
+          "artist": "Claude Debussy",
+          "image": "clair_de_lune.jpg",
+          "path": "Claude Debussy - Clair de Lune.mp3"
+        },
+        {
+          "name": "Canon in D",
+          "artist": "Johann Pachelbel",
+          "image": "canon_in_d.jpg",
+          "path": "Johann Pachelbel - Canon in D.mp3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Road Trip Mix",
+      "songs": [
+        {
+          "name": "Life is a Highway",
+          "artist": "Rascal Flatts",
+          "image": "life_is_a_highway.jpg",
+          "path": "Rascal Flatts - Life is a Highway.mp3"
+        },
+        {
+          "name": "Take Me Home, Country Roads",
+          "artist": "John Denver",
+          "image": "country_roads.jpg",
+          "path": "John Denver - Take Me Home, Country Roads.mp3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Party Anthems",
+      "songs": [
+        {
+          "name": "Dance Monkey",
+          "artist": "Tones and I",
+          "image": "dance_monkey.jpg",
+          "path": "Tones and I - Dance Monkey.mp3"
+        },
+        {
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "image": "dont_stop_believin.jpg",
+          "path": "Journey - Don't Stop Believin'.mp3"
+        }
+      ]
+    }
+  ]
+}

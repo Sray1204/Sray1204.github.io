@@ -15,114 +15,168 @@
           "artist": "Lil Yachty",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/be3bc6ccbca02be2701661ecf73ac85d/500x500-000000-80-0-0.jpg",
           "path": "Lil Yachty - Drive ME Crazy.mp3"
+        },
+        {
+          "name": "One Beer",
+          "artist": "MF DOOM",
+          "image": "https://e-cdn-images.dzcdn.net/images/cover/eb41db75ea6b22ad495876e7fa944bb4/500x500-000000-80-0-0.jpg",
+          "path": "One Beer.webm"
+        },
+        {
+          "name": "Lost",
+          "artist": "Frank Ocean",
+          "image": "https://e-cdn-images.dzcdn.net/images/cover/519400e29d268f449cf00af879e71af6/500x500-000000-80-0-0.jpg",
+          "path": "lost.webm"
+        },
+        {
+          "name": "Blue World",
+          "artist": "Mac Miller",
+          "image": "https://e-cdn-images.dzcdn.net/images/cover/f775144a9c375ada83e1e014920a4d9a/500x500-000000-80-0-0.jpg",
+          "path": "Blue World.webm"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Feel Good Jams",
+      "title": "Happy Happy Happy :D",
       "songs": [
         {
-          "name": "Happy",
-          "artist": "Pharrell Williams",
-          "image": "happy.jpg",
-          "path": "Pharrell Williams - Happy.mp3"
+          "name": "Feel it",
+          "artist": "d4vd",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/bf27c2009c90ed650e627f3f01d18d45/500x500.jpg",
+          "path": "Feel it.webm"
         },
         {
-          "name": "Uptown Funk",
-          "artist": "Mark Ronson ft. Bruno Mars",
-          "image": "uptown_funk.jpg",
-          "path": "Mark Ronson ft. Bruno Mars - Uptown Funk.mp3"
+          "name": "Hell N Back",
+          "artist": "Bakar",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/add6b6c58aa3087156dcb394007afe71/500x500.jpg",
+          "path": "Hell N Back.webm"
+        },
+        {
+          "name": "Tongue Tied",
+          "artist": "GROUPLOVE",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/43bfc14841e761f2a534f63e4b74cd6c/500x500.jpg",
+          "path": "Tongue tied.webm"
+        },
+        {
+          "name": "Remember When",
+          "artist": "Wallows",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/e8d0adbc15a2bba2350ad40022733418/500x500.jpg",
+          "path": "Remember When.webm"
+        },
+        {
+          "name": "Heart Attack (츄)",
+          "artist": "Loona",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/acb1f27658e0a4732021f833f9e0c761/500x500.jpg",
+          "path": "Heart Attack.webm"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Relaxation Station",
+      "title": "Feels We Only Go Backwards",
       "songs": [
         {
-          "name": "Ocean Waves",
-          "artist": "Nature Sounds",
-          "image": "ocean_waves.jpg",
-          "path": "Nature Sounds - Ocean Waves.mp3"
+          "name": "Feels Like We Only Go Backwards",
+          "artist": "Tame Impala",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/9fe30ce99ef17cb1250bef071f15ccee/500x500.jpg",
+          "path": "Feels Like We Only Go Backwards.webm"
         },
         {
-          "name": "Serenity",
-          "artist": "Calm Music Ensemble",
-          "image": "serenity.jpg",
-          "path": "Calm Music Ensemble - Serenity.mp3"
+          "name": "White Ferrari",
+          "artist": "Frank Ocean",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/f798a866107715dd6dc1049e498ce21f/500x500.jpg",
+          "path": "White Ferrari.webm"
+        },
+        {
+          "name": "Back to the Old House",
+          "artist": "The Smiths",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/e29df808d39deca9d932504f819af078/500x500.jpg",
+          "path": "Back to the Old House.webm"
+        },
+        {
+          "name": "ARE WE STILL FRIENDS?",
+          "artist": "Tyler, The Creator",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/041ab5ceb6fb6ebf9512966835be9e1b/500x500.jpg",
+          "path": "ARE WE STILL FRIENDS.webm"
+        },
+        {
+          "name": "Class of 2013",
+          "artist": "Mitski",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/58bcc301bfa954b696ef9586766286f3/500x500.jpg",
+          "path": "Class of 2013.webm"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Workout Beats",
+      "title": "Vent!",
       "songs": [
         {
-          "name": "Eye of the Tiger",
-          "artist": "Survivor",
-          "image": "eye_of_the_tiger.jpg",
-          "path": "Survivor - Eye of the Tiger.mp3"
+          "name": "Brand New City",
+          "artist": "Mitski",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/1e01b4e3c37408487149df240bb8bdf7/500x500.jpg",
+          "path": "Brand New City.webm"
         },
         {
-          "name": "Stronger",
-          "artist": "Kanye West",
-          "image": "stronger.jpg",
-          "path": "Kanye West - Stronger.mp3"
+          "name": "Come Here",
+          "artist": "Dominic Fike",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/19578b8eb896ed7e57d3884131f88fb0/500x500.jpg",
+          "path": "Come Here.webm"
+        },
+        {
+          "name": "The Pretender",
+          "artist": "Foo Fighters",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/266f01f1c7a04843d11cd08f9c07d11f/500x500.jpg",
+          "path": "The Pretender.webm"
+        },
+        {
+          "name": "HUMBLE",
+          "artist": "Kendrick Lamar",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/7ce6b8452fae425557067db6e6a1cad5/500x500.jpg",
+          "path": "HUMBLE..webm"
+        },
+        {
+          "name": "Cherry Waves",
+          "artist": "Deftones",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/6c595091ccb92537145ba46d94f8079e/500x500.jpg",
+          "path": "Cherry Waves.webm"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Study Tunes",
+      "title": "Spring Day 🦋",
       "songs": [
         {
-          "name": "Clair de Lune",
-          "artist": "Claude Debussy",
-          "image": "clair_de_lune.jpg",
-          "path": "Claude Debussy - Clair de Lune.mp3"
+          "name": "",
+          "artist": "",
+          "image": "",
+          "path": ""
         },
         {
-          "name": "Canon in D",
-          "artist": "Johann Pachelbel",
-          "image": "canon_in_d.jpg",
-          "path": "Johann Pachelbel - Canon in D.mp3"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Road Trip Mix",
-      "songs": [
-        {
-          "name": "Life is a Highway",
-          "artist": "Rascal Flatts",
-          "image": "life_is_a_highway.jpg",
-          "path": "Rascal Flatts - Life is a Highway.mp3"
+          "name": "",
+          "artist": "",
+          "image": "",
+          "path": ""
         },
         {
-          "name": "Take Me Home, Country Roads",
-          "artist": "John Denver",
-          "image": "country_roads.jpg",
-          "path": "John Denver - Take Me Home, Country Roads.mp3"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Party Anthems",
-      "songs": [
-        {
-          "name": "Dance Monkey",
-          "artist": "Tones and I",
-          "image": "dance_monkey.jpg",
-          "path": "Tones and I - Dance Monkey.mp3"
+          "name": "",
+          "artist": "",
+          "image": "",
+          "path": ""
         },
         {
-          "name": "Don't Stop Believin'",
-          "artist": "Journey",
-          "image": "dont_stop_believin.jpg",
-          "path": "Journey - Don't Stop Believin'.mp3"
+          "name": "",
+          "artist": "",
+          "image": "",
+          "path": ""
+        },
+        {
+          "name": "",
+          "artist": "",
+          "image": "",
+          "path": ""
         }
       ]
     }

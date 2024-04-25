@@ -4,6 +4,7 @@ var audio = new Audio();
 var songsIndex = 0;
 
 //json data will be put into these empty array's
+let playlistTitle;
 let songImg = [];
 let songName = [];
 let artist = [];
@@ -11,43 +12,55 @@ let path = [];
 let songs = [];
 
 //extract information from json file 
-//display first song deatails once added
+//display first song details once added
 // Execute this code when the window is loaded
 window.onload = function() {
-    // Get the storeId from localStorage
-    let storeId = localStorage.getItem('playlistId');
+    // Get the stored playlistId from local storage
+    const playlistId = localStorage.getItem('playlistId');
 
     // Fetch playlist data from JSON file
     fetch('playlists.json')
         .then(response => response.json())
         .then(data => {
-            // Iterate over each playlist in the JSON data
-            data.playlists.forEach(playlist => {
-                // Iterate over each song in the playlist
+            // Find the playlist that matches the stored playlistId
+            const playlist = data.playlists.find(playlist => playlist.id == playlistId);
+
+            // Check if playlist with the stored ID is found
+            if (playlist) {
+                // Assign the playlist title to the playlistTitle variable
+                playlistTitle = playlist.title;
+
+                // Extract songs from the playlist and add them to the arrays
                 playlist.songs.forEach(song => {
-                    // Push the song details into the respective arrays
                     songImg.push(song.image);
                     songName.push(song.name);
                     artist.push(song.artist);
                     path.push(song.path);
                 });
-            });
 
-            // Display the first song details once added
-            if (songsIndex == 0) {
-                document.getElementById("song-name").innerHTML = songName[songsIndex];
+                // Display the first song details once added
+                if (songsIndex == 0) {
+                    document.getElementById("playlist-name").innerHTML = playlistTitle;
+                    document.getElementById("song-name").innerHTML = songName[songsIndex];
+                    document.getElementById("artist").innerHTML = artist[songsIndex];
+                    const display_album_cover = document.querySelector(".album-cover");
+                    display_album_cover.src = songImg[songsIndex];
+                    
+                    
+                }
+            } else {
+                console.error('Playlist with ID', playlistId, 'not found.');
             }
         })
         .catch(error => console.error('Error fetching playlist data:', error));
-
-        document.getElementById("myElement").classList.add("myClass")
-
 };
+
+//Media controls button functions 
 
 function skipSongFrwd(){
     pauseMusic();
-    songsIndex = Math.min(songs.length - 1, songsIndex + 1);
-    audio.src = songs[songsIndex];
+    songsIndex = Math.min(path.length - 1, songsIndex + 1);
+    audio.src = path[songsIndex];
     playMusic();
     //call changeSongDetails() after
     changeSongDetails()
@@ -57,19 +70,19 @@ function skipSongBack(){
     pauseMusic();
     songsIndex -= 1;
     //make sure it will not change if the list is less than 0
-    audio.src = songs[songsIndex];
+    audio.src = path[songsIndex];
     playMusic();
     changeSongDetails()
 }
 
 // Play function
-//needs to play current song index
+//Will play current song index
 function playMusic() {
     // Toggle musicPlaying status
     musicPlaying = !musicPlaying;
 
     //this will play the current index in the songs playlist 
-    audio.src = songs[songsIndex];
+    audio.src = path[songsIndex];
 
     if(musicPlaying == true){
         audio.play();
@@ -81,17 +94,17 @@ function pauseMusic(){
     //toggle music off
     musicPlaying = !musicPlaying;
 
-    if(musicPlaying == false && songs){
+    if(musicPlaying == false && path){
         audio.pause();
     }
 
 }
 
 function changeSongDetails(){
-    //change the album cover to match the song
-    //change the song name when skipped 
-    document.getElementById("song-name").innerHTML = songs[songsIndex];
     //checks the songindex and displays song name
-    
+    document.getElementById("song-name").innerHTML = songName[songsIndex];
+    document.getElementById("artist").innerHTML = artist[songsIndex];
+    const display_album_cover = document.querySelector(".album-cover");
+    display_album_cover.src = songImg[songsIndex];
 }
 

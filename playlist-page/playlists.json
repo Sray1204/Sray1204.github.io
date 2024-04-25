@@ -2,19 +2,19 @@
   "playlists": [
     {
       "id": 1,
-      "title": "Chill Vibes",
+      "title": "Chillin'",
       "songs": [
         {
           "name": "How Much Is Weed",
           "artist": "Dominic Fike",
-          "image": "sunflower.jpg",
+          "image": "https://e-cdn-images.dzcdn.net/images/cover/6571bfb8b8d03eef4439bed2afb95418/500x500-000000-80-0-0.jpg",
           "path": "Dominic Fike - How Much Is Weed.mp3"
         },
         {
-          "name": "Someone You Loved",
-          "artist": "Lewis Capaldi",
-          "image": "someone_you_loved.jpg",
-          "path": "Lewis Capaldi - Someone You Loved.mp3"
+          "name": "Drive ME CRAZY!",
+          "artist": "Lil Yachty",
+          "image": "https://e-cdn-images.dzcdn.net/images/cover/be3bc6ccbca02be2701661ecf73ac85d/500x500-000000-80-0-0.jpg",
+          "path": "Lil Yachty - Drive ME Crazy.mp3"
         }
       ]
     },

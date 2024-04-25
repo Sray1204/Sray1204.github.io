@@ -54,12 +54,27 @@ body {
     border-radius: 10px; /* Apply border radius to the image */
 }
 
+#playlist-name{
+    font-size: 25px; /* Adjust font size */
+    font-weight: bold; /* Apply bold font weight */
+    color: black; /* Dark text color */
+    text-align: center; /* Center-align the song name */
+}
+
+
 #song-name {
     font-size: 20px; /* Adjust font size */
     font-weight: bold; /* Apply bold font weight */
     color: black; /* Dark text color */
     text-align: center; /* Center-align the song name */
     margin-bottom: 20px; /* Add space below the song name */
+}
+
+#artist {
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Apply bold font weight */
+    color: black; /* Dark text color */
+    text-align: center; /* Center-align the song name */
 }
 
 .media-controls {

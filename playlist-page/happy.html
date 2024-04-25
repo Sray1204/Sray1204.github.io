@@ -8,19 +8,24 @@
     <script src="mediaPlayer.js"></script>
 </head>
 <body>
+
+    <!-- playlist title -->
+    <!-- Classes are used so playlist information and song information can be places -->
     <div class="playlist-title-box">
-        <h3>Playlist</h3>
-        <h1>Playlist Title</h1>
+        <h3>Playlist -</h3>
         <div id="playlist-name"></div>
-        <!-- Quote cycling here -->
-    </div>
-    
-<div class="box">
-    <div class="img-container">
-        <img src="Dominic_Fike_-_Sunburn.png" alt="album-cover" width="200" height="200">
-        <div id="song-name"></div>
+
     </div>
 
+    <!-- Song information  -->
+<div class="box">
+    <div class="img-container">
+        <img class="album-cover" src="">
+        <div id="song-name"></div>
+        <div id="artist"></div>
+    </div>
+
+    <!-- Media controls  -->
     <div class="media-controls" id="media-controls">
         <input type="button" id="skipBack" name="pause" value="⏪" onclick="skipSongBack()">
         <input type="button" id="play" name="play" value="&#9654;" onclick="playMusic()">

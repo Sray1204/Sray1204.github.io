@@ -10,15 +10,15 @@ var questionIndex = 0;
 //list of questions to answer to get user mood points
 var questions = [
     "Sooo... how's the weather over there?",
-    "Is there work or school today?",
-    "You hanging out with anyone today?",
+    "How you feeling about work or school right now?",
+    "Did the plans make it out the groupchat this week?",
     "Have you completed the task you wanted to do, or are you procastinating right now?",
     "How's the bank account looking?",
     "Did they text back?",
-    "Did something embarrassing happen to you in the past week?",
-    "How's your week been?",
-    "test",
-    "test"
+    "Is it a good hair day?",
+    "Did you have to interact with THAT person?",
+    "Did you eat good today?",
+    "How was the sleep?...or lack thereof"
 ];
 
 //getting playlist input
@@ -82,16 +82,15 @@ function calculateMoodPoints() {
             storeId = 1;
         } else {
             // Default storeId if none of the conditions are met
-            storeId = 2;
+            storeId = 1;
         }
     }
 
     // Store the playlist ID in local storage
     localStorage.setItem('playlistId', storeId);
-    alert("Playlist ID: " + storeId);
 
     // Redirect to the corresponding playlist page
-    window.location.replace("playlist-page/happy.html");
+    window.location.replace("playlist-page/playlist-page.html");
 }
 
 

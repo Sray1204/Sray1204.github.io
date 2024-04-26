@@ -89,7 +89,7 @@ body {
     padding: 15px;
     font-size: 20px;
     cursor: pointer;
-    background-color: whitesmodarke; /* Green color for buttons */
+    background-color: whitesmodarke; /* the buttons will be more distinguishable with this colour */
     color: black; /* Text color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
     transition: transform 0.2s ease; /* Add transition for smooth effect */

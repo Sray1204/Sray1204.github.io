@@ -66,14 +66,19 @@ function skipSongFrwd(){
     changeSongDetails()
 }
 
-function skipSongBack(){
+function skipSongBack() {
     pauseMusic();
-    songsIndex -= 1;
-    //make sure it will not change if the list is less than 0
+    //Check if songsIndex is greater than 0 before decrementing
+    if (songsIndex > 0) {
+        songsIndex -= 1;
+    } else {
+        songsIndex = 0; // Set songsIndex to 0 if it's already at 0
+    }
     audio.src = path[songsIndex];
     playMusic();
-    changeSongDetails()
+    changeSongDetails();
 }
+
 
 // Play function
 //Will play current song index

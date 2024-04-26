@@ -8,31 +8,31 @@
           "name": "How Much Is Weed",
           "artist": "Dominic Fike",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/6571bfb8b8d03eef4439bed2afb95418/500x500-000000-80-0-0.jpg",
-          "path": "Dominic Fike - How Much Is Weed.mp3"
+          "path": "music/Dominic Fike - How Much Is Weed.mp3"
         },
         {
           "name": "Drive ME CRAZY!",
           "artist": "Lil Yachty",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/be3bc6ccbca02be2701661ecf73ac85d/500x500-000000-80-0-0.jpg",
-          "path": "Lil Yachty - Drive ME Crazy.mp3"
+          "path": "music/Lil Yachty - Drive ME Crazy.mp3"
         },
         {
           "name": "One Beer",
           "artist": "MF DOOM",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/eb41db75ea6b22ad495876e7fa944bb4/500x500-000000-80-0-0.jpg",
-          "path": "One Beer.webm"
+          "path": "music/One Beer.webm"
         },
         {
           "name": "Lost",
           "artist": "Frank Ocean",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/519400e29d268f449cf00af879e71af6/500x500-000000-80-0-0.jpg",
-          "path": "lost.webm"
+          "path": "music/lost.webm"
         },
         {
           "name": "Blue World",
           "artist": "Mac Miller",
           "image": "https://e-cdn-images.dzcdn.net/images/cover/f775144a9c375ada83e1e014920a4d9a/500x500-000000-80-0-0.jpg",
-          "path": "Blue World.webm"
+          "path": "music/Blue World.webm"
         }
       ]
     },
@@ -44,67 +44,67 @@
           "name": "Feel it",
           "artist": "d4vd",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/bf27c2009c90ed650e627f3f01d18d45/500x500.jpg",
-          "path": "Feel it.webm"
+          "path": "music/Feel it.webm"
         },
         {
           "name": "Hell N Back",
           "artist": "Bakar",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/add6b6c58aa3087156dcb394007afe71/500x500.jpg",
-          "path": "Hell N Back.webm"
+          "path": "music/Hell N Back.webm"
         },
         {
           "name": "Tongue Tied",
           "artist": "GROUPLOVE",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/43bfc14841e761f2a534f63e4b74cd6c/500x500.jpg",
-          "path": "Tongue tied.webm"
+          "path": "music/Tongue tied.webm"
         },
         {
           "name": "Remember When",
           "artist": "Wallows",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/e8d0adbc15a2bba2350ad40022733418/500x500.jpg",
-          "path": "Remember When.webm"
+          "path": "music/Remember When.webm"
         },
         {
           "name": "Heart Attack (츄)",
           "artist": "Loona",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/acb1f27658e0a4732021f833f9e0c761/500x500.jpg",
-          "path": "Heart Attack.webm"
+          "path": "music/Heart Attack.webm"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Feels We Only Go Backwards",
+      "title": "Feels Like We Only Go Backwards",
       "songs": [
         {
           "name": "Feels Like We Only Go Backwards",
           "artist": "Tame Impala",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/9fe30ce99ef17cb1250bef071f15ccee/500x500.jpg",
-          "path": "Feels Like We Only Go Backwards.webm"
+          "path": "music/Feels Like We Only Go Backwards.webm"
         },
         {
           "name": "White Ferrari",
           "artist": "Frank Ocean",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/f798a866107715dd6dc1049e498ce21f/500x500.jpg",
-          "path": "White Ferrari.webm"
+          "path": "music/White Ferrari.webm"
         },
         {
           "name": "Back to the Old House",
           "artist": "The Smiths",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/e29df808d39deca9d932504f819af078/500x500.jpg",
-          "path": "Back to the Old House.webm"
+          "path": "music/Back to the Old House.webm"
         },
         {
           "name": "ARE WE STILL FRIENDS?",
           "artist": "Tyler, The Creator",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/041ab5ceb6fb6ebf9512966835be9e1b/500x500.jpg",
-          "path": "ARE WE STILL FRIENDS.webm"
+          "path": "music/ARE WE STILL FRIENDS.webm"
         },
         {
           "name": "Class of 2013",
           "artist": "Mitski",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/58bcc301bfa954b696ef9586766286f3/500x500.jpg",
-          "path": "Class of 2013.webm"
+          "path": "music/Class of 2013.webm"
         }
       ]
     },
@@ -116,31 +116,31 @@
           "name": "Brand New City",
           "artist": "Mitski",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/1e01b4e3c37408487149df240bb8bdf7/500x500.jpg",
-          "path": "Brand New City.webm"
+          "path": "music/Brand New City.webm"
         },
         {
           "name": "Come Here",
           "artist": "Dominic Fike",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/19578b8eb896ed7e57d3884131f88fb0/500x500.jpg",
-          "path": "Come Here.webm"
+          "path": "music/Come Here.webm"
         },
         {
           "name": "The Pretender",
           "artist": "Foo Fighters",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/266f01f1c7a04843d11cd08f9c07d11f/500x500.jpg",
-          "path": "The Pretender.webm"
+          "path": "music/The Pretender.webm"
         },
         {
           "name": "HUMBLE",
           "artist": "Kendrick Lamar",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/7ce6b8452fae425557067db6e6a1cad5/500x500.jpg",
-          "path": "HUMBLE..webm"
+          "path": "music/humble.webm"
         },
         {
           "name": "Cherry Waves",
           "artist": "Deftones",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/6c595091ccb92537145ba46d94f8079e/500x500.jpg",
-          "path": "Cherry Waves.webm"
+          "path": "music/Cherry Waves.webm"
         }
       ]
     },
@@ -152,31 +152,31 @@
           "name": "peach eyes",
           "artist": "Wave To Earth",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/0c562adb9c61b7bfbcfef909439d6cb5/500x500.jpg",
-          "path": "peach eyes.webm"
+          "path": "music/peach eyes.webm"
         },
         {
           "name": "4EVER",
           "artist": "Clairo",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/dc7fc6b384716261b0c662e760b3df56/500x500.jpg",
-          "path": "4EVER.webm"
+          "path": "music/4EVER.webm"
         },
         {
           "name": "Sunny day",
           "artist": "beabadoobee",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/61e1093dfaafa599e459ddf4c665e985/500x500.jpg",
-          "path": "Sunny Day.webm"
+          "path": "music/Sunny Day.webm"
         },
         {
           "name": "Why",
           "artist": "Dominic Fike",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/19578b8eb896ed7e57d3884131f88fb0/500x500.jpg",
-          "path": "Why.webm"
+          "path": "music/Why.webm"
         },
         {
           "name": "Genisis",
           "artist": "Grimes",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/c85a9ca3e1bc10192a1f893910e1322a/500x500.jpg",
-          "path": "Genesis.webm"
+          "path": "music/Genesis.webm"
         }
       ]
     },
@@ -188,31 +188,31 @@
           "name": "Cologne",
           "artist": "beabadoobee",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/27a1b898315284eeec67b5c457969038/500x500.jpg",
-          "path": "Cologne.webm"
+          "path": "music/Cologne.webm"
         },
         {
           "name": "About You",
           "artist": "The 1975",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/0fb98cc789d194e06d78c2b9598bc02e/500x500.jpg",
-          "path": "About You.webm"
+          "path": "music/About You.webm"
         },
         {
           "name": "Broken Clocks",
           "artist": "SZA",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/a1a3326c5d9176c763fc3fd847b86681/500x500.jpg",
-          "path": "Broken Clocks.webm"
+          "path": "music/Broken Clocks.webm"
         },
         {
           "name": "The Way Life Goes",
           "artist": "Lil Uzi Vert, Oh Wonder",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/379613019df276565895074c85ec9efa/500x500.jpg",
-          "path": "The Way Life Goes.webm"
+          "path": "music/The Way Life Goes.webm"
         },
         {
           "name": "Infrunami",
           "artist": "Steve Lacy",
           "image": "https://e-cdns-images.dzcdn.net/images/cover/aab27852a05351552e9dcacdbb14ec3a/500x500.jpg",
-          "path": "Infrunami.webm"
+          "path": "music/Infrunami.webm"
         }
       ]
     }

@@ -149,34 +149,70 @@
       "title": "Spring Day 🦋",
       "songs": [
         {
-          "name": "",
-          "artist": "",
-          "image": "",
-          "path": ""
+          "name": "peach eyes",
+          "artist": "Wave To Earth",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/0c562adb9c61b7bfbcfef909439d6cb5/500x500.jpg",
+          "path": "peach eyes.webm"
         },
         {
-          "name": "",
-          "artist": "",
-          "image": "",
-          "path": ""
+          "name": "4EVER",
+          "artist": "Clairo",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/dc7fc6b384716261b0c662e760b3df56/500x500.jpg",
+          "path": "4EVER.webm"
         },
         {
-          "name": "",
-          "artist": "",
-          "image": "",
-          "path": ""
+          "name": "Sunny day",
+          "artist": "beabadoobee",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/61e1093dfaafa599e459ddf4c665e985/500x500.jpg",
+          "path": "Sunny Day.webm"
         },
         {
-          "name": "",
-          "artist": "",
-          "image": "",
-          "path": ""
+          "name": "Why",
+          "artist": "Dominic Fike",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/19578b8eb896ed7e57d3884131f88fb0/500x500.jpg",
+          "path": "Why.webm"
         },
         {
-          "name": "",
-          "artist": "",
-          "image": "",
-          "path": ""
+          "name": "Genisis",
+          "artist": "Grimes",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/c85a9ca3e1bc10192a1f893910e1322a/500x500.jpg",
+          "path": "Genesis.webm"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Text me back",
+      "songs": [
+        {
+          "name": "Cologne",
+          "artist": "beabadoobee",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/27a1b898315284eeec67b5c457969038/500x500.jpg",
+          "path": "Cologne.webm"
+        },
+        {
+          "name": "About You",
+          "artist": "The 1975",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/0fb98cc789d194e06d78c2b9598bc02e/500x500.jpg",
+          "path": "About You.webm"
+        },
+        {
+          "name": "Broken Clocks",
+          "artist": "SZA",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/a1a3326c5d9176c763fc3fd847b86681/500x500.jpg",
+          "path": "Broken Clocks.webm"
+        },
+        {
+          "name": "The Way Life Goes",
+          "artist": "Lil Uzi Vert, Oh Wonder",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/379613019df276565895074c85ec9efa/500x500.jpg",
+          "path": "The Way Life Goes.webm"
+        },
+        {
+          "name": "Infrunami",
+          "artist": "Steve Lacy",
+          "image": "https://e-cdns-images.dzcdn.net/images/cover/aab27852a05351552e9dcacdbb14ec3a/500x500.jpg",
+          "path": "Infrunami.webm"
         }
       ]
     }

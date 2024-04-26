@@ -67,11 +67,10 @@ function calculateMoodPoints() {
     // Check for mood combinations
     if (chillCount > 2 && happyCount > 2) {
         storeId = 5;
-    } else if (sadCount > 2 && angryCount > 2) {
+    } else if (sadCount > 3 && angryCount > 2) {
         storeId = 6;
-    } else if (sadCount > 2 && chillCount > 1 && angryCount > 2) {
-        storeId = 7;
-    } else {
+    } 
+    else {
         // Check individual mood counts
         if (happyCount > 4) {
             storeId = 2;

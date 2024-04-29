@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: andale mono, monospace;
     font-size: large;
-    background-image: url(/pics/bg0.jpg);
+    background-image: url(/pics/bg0.jpg); /* Background image for the first half of the website */
     background-size: 100% ;
 }
 
@@ -29,9 +29,8 @@ body {
 .box button {
     width: 100px; /* Adjust button width */
     padding: 5px; /* Adjust button padding */
-    font-family: andale mono, monospace;
     font-size: 25px; /* Inherit font size from parent */
-    background-color: blanchedalmond; /* Button background color */
+    background-color: whitesmodarke; /* Button background color */
     color: black; /* Button text color */
     border: none; /* Remove button border */
     border-radius: 5px; /* Rounded button corners */

@@ -1,13 +1,13 @@
-//setting playlist selection based on the mood points 
+// Setting playlist selection based on the mood points 
 var happyCount = 0;
 var sadCount = 0;
 var angryCount = 0;
 var chillCount = 0;
 
-//keeps track of how many questions that have been answered
+// Keeps track of how many questions that have been answered
 var questionIndex = 0;
 
-//list of questions to answer to get user mood points
+// List of questions that will be displayed on the html
 var questions = [
     "Sooo... how's the weather over there?",
     "How you feeling about work or school right now?",
@@ -21,7 +21,7 @@ var questions = [
     "How was the sleep?...or lack thereof"
 ];
 
-//getting playlist input
+// Updates the mood points variable based on the button that is clicked 
 function handleButtonClick(mood){
 
     if(mood == 'happy'){
@@ -46,20 +46,21 @@ function handleButtonClick(mood){
     }
 }
 
-// Function to display the next question
+// Function to display the next question in the array 
 function nextQuestion() {
     //Checks there are more than one question in the array
     if (questions.length > 1) {
         //Writes over the current question and push it out of the array
         document.getElementById("questions").innerHTML = questions.shift();
 
+    // If the Index is at 10 it will call function to decide what playlist the user will get 
     } else if(questionIndex == 10){
-        //alert("questions done");
+        
         calculateMoodPoints();
     }
 }
 
-//localStorage.setItem() then getitem in media player script 
+
 //will direct to playlist and store the playlist number/ id through the website and then be read and will choose the playlist in the mediaplayer script 
 function calculateMoodPoints() {
     let storeId;

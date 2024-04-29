@@ -99,3 +99,20 @@ body {
 .media-controls input[type="button"]:hover {
     transform: scale(1.05); /* Scale button slightly on hover */
 }
+
+#home-button {
+    border: none;
+    border-radius: 10px; /* Apply border radius */
+    padding: 15px 30px; /* Increase padding for a larger button */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    transition: transform 0.2s ease; /* Add transition for smooth effect */
+}
+
+/* Hover effect */
+#home-button:hover {
+    transform: scale(1.05); /* Scale button slightly on hover */
+}
